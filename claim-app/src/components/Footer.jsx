@@ -8,34 +8,34 @@ const Footer = () => {
                 <div className="container">
                     <footer className="py-5">
                         <div className="row">
-                            <div className="col-3">
+                            <div className="col-4">
                                 <h4>
                                     CLAIM MANAGEMENT
                                 </h4>
                             </div>
-                            <div className="col-2">
+                            <div className="col-md-4">
                                 <h5>
                                     Section
                                 </h5>
                                 <ul className="nav flex-column">
                                     <li className="nav-item mb-2">
-                                        <a to="#" className="nav-link p-0 text-white">
+                                        <a href="/" className="nav-link p-0 text-white">
                                             Home
                                         </a>
                                     </li>
                                     <li className="nav-item mb-2">
-                                        <a to="#" className="nav-link p-0 text-white">
-                                            Features
+                                        <a href="/about" className="nav-link p-0 text-white">
+                                            About
                                         </a>
                                     </li>
                                     <li className="nav-item mb-2">
-                                        <a to="#" className="nav-link p-0 text-white">
-                                            Pricing
+                                        <a href="/services" className="nav-link p-0 text-white">
+                                            Services
                                         </a>
                                     </li>
                                     <li className="nav-item mb-2">
-                                        <a to="#" className="nav-link p-0 text-white">
-                                            FAQs
+                                        <a href="/contact" className="nav-link p-0 text-white">
+                                            Contact
                                         </a>
                                     </li>
                                 </ul>
@@ -43,37 +43,37 @@ const Footer = () => {
                             </div>
 
 
-                            <div className="col-2">
+                            <div className="col-md-4">
                                 <h5>
-                                    section
+                                    Section
                                 </h5>
                                 <ul className="nav flex-column">
                                     <li className="nav-item mb-2">
-                                        <a to="#" className="nav-link p-0 text-white">
+                                        <a href="/" className="nav-link p-0 text-white">
                                             Home
                                         </a>
                                     </li>
                                     <li className="nav-item mb-2">
-                                        <a to="#" className="nav-link p-0 text-white">
-                                            Features
+                                        <a href="/about" className="nav-link p-0 text-white">
+                                            About
                                         </a>
                                     </li>
                                     <li className="nav-item mb-2">
-                                        <a to="#" className="nav-link p-0 text-white">
-                                            Pricing
+                                        <a href="/services" className="nav-link p-0 text-white">
+                                            Services
                                         </a>
                                     </li>
                                     <li className="nav-item mb-2">
-                                        <a to="#" className="nav-link p-0 text-white">
-                                            FAQs
+                                        <a href="/contact" className="nav-link p-0 text-white">
+                                            Contact
                                         </a>
                                     </li>
                                 </ul>
 
                             </div>
 
-                            <div className="col-4 offset-1">
-                                <form>
+                           {/* <div className="col-4 offset-1">
+                              /<form>
                                     <h5>Subscribe to the newletter</h5>
                                     <p>whats new</p>
                                     <div className="d-flex w-100 gap-2">
@@ -85,7 +85,7 @@ const Footer = () => {
                                 </form>
 
 
-                            </div>
+                         </div>*/}
 
                         </div>
                         <div className="d-flex justify-content-between pt-4 mt-4 border top">
