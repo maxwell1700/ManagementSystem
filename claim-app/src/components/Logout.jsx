@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
-import { useNavigate } from 'react-router';
+
 
 const Logout = () => {
 
-    const navigate = useNavigate();
+    
 
     const logout = async () => {
         try {
