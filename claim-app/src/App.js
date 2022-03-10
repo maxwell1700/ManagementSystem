@@ -82,7 +82,7 @@ function App() {
         <Route
           exact
           path="/form"
-          element={<LinearStepper/>}
+          element={auth ? <LinearStepper/>: <Login />}
         />
         
       </Routes>
