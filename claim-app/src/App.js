@@ -11,7 +11,6 @@ import { Routes, Route } from "react-router-dom";
 import Dashboard from "./components/Dashboard";
 import Logout from "./components/Logout";
 import LinearStepper from "./components/Form/LinearStepper";
-import { CssBaseline, Container, Paper, Box } from "@material-ui/core";
 
 import { useEffect, useState } from "react";
 
