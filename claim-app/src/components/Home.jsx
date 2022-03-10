@@ -17,9 +17,7 @@ const Home = () => {
                              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             </p>
                             <div className="buttons d-flex justify-content-center">
-                                <button to="/form" className="btn btn-light me-4  rounded-pill px-4 py-2">
-                                    Get started
-                                </button>
+                                <a className="btn btn-light me-4  rounded-pill px-4 py-2" href="/form" role="button">Get Started</a>
                                 <button className="btn btn-outline-light rounded-pill px-4 py-2">
                                     Our Service
                                 </button>
